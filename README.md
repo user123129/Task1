@@ -4,26 +4,18 @@
 # 📌 Task Objectives
 
 1.Install Nmap from official website.<br>
-2.Find your local IP range (e.g., 192.168.1.0/24).
-
-3.Run: nmap -sS 192.168.1.0/24 to perform TCP SYN scan.
-
-4.Note down IP addresses and open ports found.
-
-5.Optionally analyze packet capture with Wireshark.
-
-6.Research common services running on those ports.
-
-7.Identify potential security risks from open ports.
-
-8.Save scan results as a text or HTML file.
+2.Find your local IP range (e.g., 192.168.1.0/24).<br>
+3.Run: nmap -sS 192.168.1.0/24 to perform TCP SYN scan.<br>
+4.Note down IP addresses and open ports found.<br>
+5.Optionally analyze packet capture with Wireshark.<br>
+6.Research common services running on those ports.<br>
+7.Identify potential security risks from open ports.<br>
+8.Save scan results as a text or HTML file.<br>
 
 # 🛠️ Tools Used
-Nmap - to scan network and ports
-
-Wireshark - to conduct packet analysis
-
-xsltproc - to convert xml file to html file
+Nmap - to scan network and ports<br>
+Wireshark - to conduct packet analysis<br>
+xsltproc - to convert xml file to html file<br>
 
 # 🗺️ Nmap Commands Used
 1.TCP SYN Scan
