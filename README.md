@@ -2,7 +2,9 @@
 # Nmap Network Scanning &amp; Wireshark Packet Analysis
 
 # 📌 Task Objectives
+
 1.Install Nmap from official website.
+
 2.Find your local IP range (e.g., 192.168.1.0/24).
 3.Run: nmap -sS 192.168.1.0/24 to perform TCP SYN scan.
 4.Note down IP addresses and open ports found.
