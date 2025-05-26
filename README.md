@@ -3,9 +3,9 @@
 
 # 📌 Task Objectives
 
-1.Install Nmap from official website.
+1. Install Nmap from official website.
 
-2.Find your local IP range (e.g., 192.168.1.0/24).
+2. Find your local IP range (e.g., 192.168.1.0/24).
 
 3.Run: nmap -sS 192.168.1.0/24 to perform TCP SYN scan.
 
@@ -27,7 +27,7 @@ Wireshark - to conduct packet analysis
 xsltproc - to convert xml file to html file
 
 # 🗺️ Nmap Commands Used
-# TCP SYN Scan
+1. TCP SYN Scan
 nmap -sS 10.0.2.0/24
 # Output of scan(.txt format)
 nmap -sS 10.0.2.0/24 -oN open_ports_summary.txt  //stored in open_ports_summary.txt
