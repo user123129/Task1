@@ -18,18 +18,14 @@ Wireshark - to conduct packet analysis<br>
 xsltproc - to convert xml file to html file<br>
 
 # 🗺️ Nmap Commands Used
-1.TCP SYN Scan
-
+1.TCP SYN Scan<br>
 nmap -sS 10.0.2.0/24
 
-2.Output of scan(.txt format)
-
+2.Output of scan(.txt format)<br>
 nmap -sS 10.0.2.0/24 -oN open_ports_summary.txt  //stored in open_ports_summary.txt
 
-3.Output of scan(.html format)
-
-nmap -sS 10.0.2.0/24 -oX result.xml   //No default html format so converted to xml format
-
+3.Output of scan(.html format)<br>
+nmap -sS 10.0.2.0/24 -oX result.xml   //No default html format so converted to xml format<br>
 xsltproc result.xml -o result.html  //Use xsltproc tool to convert the xml format to html format
 
 # 🦈 Wireshark Analysis
@@ -40,12 +36,9 @@ tcp.flags.syn==1 and tcp.flags.ack==0 //filters all the syn requests made by sca
 
 IP's discovered:
 
-10.0.2.2
-
-10.0.2.3
-
-10.0.2.4
-
+10.0.2.2<br>
+10.0.2.3<br>
+10.0.2.4<br>
 10.0.2.15
 
 Open Ports and Services:
