@@ -34,8 +34,7 @@ tcp.flags.syn==1 and tcp.flags.ack==0 //filters all the syn requests made by sca
 
 # 📈 Scan Results Summary
 
-IP's discovered:
-
+IP's discovered:<br>
 10.0.2.2<br>
 10.0.2.3<br>
 10.0.2.4<br>
@@ -52,7 +51,7 @@ Open Ports and Services:
 
 # 🔐 Security Risks Identified
 
-Port 135(MSRPC) - Targeted for Ransomware attacks<br>
-Port 445(SMB) - Used for lateral movements in Windows Networks<br>
-Port 3306(SQL) - Prone to attacks like SQL Injections<br>
-Port 8181(Intermapper) - Prone to network topology exposure
+1.Port 135(MSRPC) - Targeted for Ransomware attacks<br>
+2.Port 445(SMB) - Used for lateral movements in Windows Networks<br>
+3.Port 3306(SQL) - Prone to attacks like SQL Injections<br>
+4.Port 8181(Intermapper) - Prone to network topology exposure
