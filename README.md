@@ -43,22 +43,16 @@ IP's discovered:
 
 Open Ports and Services:
 
-IP Address                   Open Ports                       Services Identified
+|  IP Address  |  Open Ports      |  Services Identified              |
 
-10.0.2.2                     135,445,6646                     MSRPC,Microsoft-DS,Unknown
-
-10.0.2.3                     135,445,6646                     MSRPC,Microsoft-DS,Unknown
-
-10.0.2.4                     135,445,6646                     MSRPC,Microsoft-DS,Unknown
-
-10.0.2.15                    1099,3306,8181                   RMIRegistry,MariaDB,Intermapper
+|  10.0.2.2    |  135,445,6646    |  MSRPC,Microsoft-DS,Unknown       |<br>
+|  10.0.2.3    |  135,445,6646    |  MSRPC,Microsoft-DS,Unknown       |<br>
+|  10.0.2.4    |  135,445,6646    |  MSRPC,Microsoft-DS,Unknown       |<br>
+|  10.0.2.15   |  1099,3306,8181  |  RMIRegistry,MariaDB,Intermapper  |
 
 # 🔐 Security Risks Identified
 
-Port 135(MSRPC) - Targeted for Ransomware attacks
-
-Port 445(SMB) - Used for lateral movements in Windows Networks
-
-Port 3306(SQL) - Prone to attacks like SQL Injections
-
+Port 135(MSRPC) - Targeted for Ransomware attacks<br>
+Port 445(SMB) - Used for lateral movements in Windows Networks<br>
+Port 3306(SQL) - Prone to attacks like SQL Injections<br>
 Port 8181(Intermapper) - Prone to network topology exposure
