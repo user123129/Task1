@@ -1,0 +1,37 @@
+# Nmap 7.95 scan initiated Mon May 26 05:02:54 2025 as: /usr/lib/nmap/nmap --privileged -sS -oN open_ports_summary.txt 10.0.2.0/24
+Nmap scan report for 10.0.2.2
+Host is up (0.0051s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+445/tcp  open  microsoft-ds
+6646/tcp open  unknown
+MAC Address: 52:54:00:12:35:02 (QEMU virtual NIC)
+
+Nmap scan report for 10.0.2.3
+Host is up (0.0037s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+445/tcp  open  microsoft-ds
+6646/tcp open  unknown
+MAC Address: 52:54:00:12:35:03 (QEMU virtual NIC)
+
+Nmap scan report for 10.0.2.4
+Host is up (0.0062s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+445/tcp  open  microsoft-ds
+6646/tcp open  unknown
+MAC Address: 52:54:00:12:35:04 (QEMU virtual NIC)
+
+Nmap scan report for 10.0.2.15
+Host is up (0.0000060s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+1099/tcp open  rmiregistry
+3306/tcp open  mysql
+8181/tcp open  intermapper
+
+# Nmap done at Mon May 26 05:03:05 2025 -- 256 IP addresses (4 hosts up) scanned in 11.34 seconds
