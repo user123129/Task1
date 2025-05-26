@@ -44,10 +44,10 @@ IP's discovered:
 Open Ports and Services:
 
 |  IP Address  |  Open Ports      |  Services Identified              |
-
-|  10.0.2.2    |  135,445,6646    |  MSRPC,Microsoft-DS,Unknown       |<br>
-|  10.0.2.3    |  135,445,6646    |  MSRPC,Microsoft-DS,Unknown       |<br>
-|  10.0.2.4    |  135,445,6646    |  MSRPC,Microsoft-DS,Unknown       |<br>
+|:-------------|:-----------------|:----------------------------------|
+|  10.0.2.2    |  135,445,6646    |  MSRPC,Microsoft-DS,Unknown       |
+|  10.0.2.3    |  135,445,6646    |  MSRPC,Microsoft-DS,Unknown       |
+|  10.0.2.4    |  135,445,6646    |  MSRPC,Microsoft-DS,Unknown       |
 |  10.0.2.15   |  1099,3306,8181  |  RMIRegistry,MariaDB,Intermapper  |
 
 # 🔐 Security Risks Identified
